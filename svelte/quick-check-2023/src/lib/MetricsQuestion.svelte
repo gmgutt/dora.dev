@@ -29,7 +29,7 @@
         failurerecovery: {
             friendly_name: "Failed deployment recovery time",
             description:
-                "For the primary application or service you work on, **how long does it generally take to restore service** after a change to production or release to users results in degraded service (for example, lead to service impairment or service outage) and subsequently require remediation (for example, require a hotfix, rollback, fix forward, or patch)?",
+                "For the primary application or service you work on, **how long does it generally take to restore service** after a change to production or release to users results in degraded service (for example, lead to service impairment or service outage) and subsequently requires remediation (for example, require a hotfix, rollback, fix forward, or patch)?",
         },
     };
 
@@ -165,7 +165,7 @@
 
         label {
             margin-bottom: 6px;
-            padding-left: 0.5rem;
+            padding-inline: 0.5rem;
         }
 
         slider {
@@ -286,7 +286,7 @@
             }
 
             fieldset {
-                width: 100%;
+                width: calc(100% - 1rem);
                 padding: 0.5rem;
                 label {
                     padding-left: 0.5rem;

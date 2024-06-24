@@ -1,11 +1,14 @@
 ---
-title: "How to transform"
-titleForHTMLHead: "DevOps Capabilities: Transform" # TODO: can we DRY this out?
+title: "How to transform your organization"
+titleForHTMLHead: "How to transform your organization" # TODO: can we DRY this out?
 date: 2023-03-22T13:43:36Z
-category: cultural
+updated: 2024-06-10T00:00:00Z
 draft: false
-headline: "Find out about the importance of ensuring your people have the tools and resources to do their job, and of making good use of their skills and abilities."
-summary: "Find out about the importance of ensuring your people have the tools and resources to do their job, and of making good use of their skills and abilities."
+headline: "How to transform your organization"
+subhead: "Find out about the importance of ensuring your people have the tools and resources to do their job, and of making good use of their skills and abilities."
+authors: 
+    1: {name: 'Jez Humble', url: 'https://www.linkedin.com/in/jez-humble'}
+heroimage: "devops-culture-transform.png"
 ---
 
 Every organization is constantly undergoing change. Therefore, some questions to
@@ -159,7 +162,7 @@ Some important points about this pattern are the following:
 After teams have discovered better ways of working, the next task is to spread
 lessons learned throughout the organization. There are many ways to do this. In
 the
-[2019 State of DevOps Report](https://cloud.google.com/devops/state-of-devops)
+[2019 State of DevOps Report](/research/2019/dora-report/2019-dora-accelerate-state-of-devops-report.pdf)
 researchers asked respondents to share how their teams and organizations spread
 DevOps and Agile methods by selecting from one or more of the following
 approaches (see Appendix B of the 2019 State of DevOps Report for detailed
@@ -234,17 +237,12 @@ resources to ensure their success (time, money, and executive and champion
 practitioner sponsorship). In contrast to mashups, very few people report use of
 a big bang strategy, although it was most common in low performers.
 
-Additional analysis identified four patterns used by high performers:
+Additional analysis identified four patterns used by high performers, ordered by
+prevalence:
 
 -   **Community builders:** This group focuses on communities of practice,
     grassroots, and proofs of concept (as a template and as a seed, as described
     earlier). This occurs 46% of the time.
--   **University:** This group focuses on education and training, with the
-    majority of their efforts going into centers of excellence, communities of
-    practice, and training centers. This pattern was only observed 9% of the
-    time, suggesting that while this strategy can be successful, it is not
-    common and requires significant investment and planning to ensure that
-    lessons learned are scaled throughout the organization.
 -   **Emergent:** This group has focused on grassroots efforts and communities
     of practice. This appears to be the most hands-off group and appears in 23%
     of cases.
@@ -254,6 +252,13 @@ Additional analysis identified four patterns used by high performers:
     levels in PoCs that stall. The fact they are able to leverage this activity
     and remain high performers suggests they use this strategy to experiment and
     test out ideas quickly.
+-   **University:** This group focuses on education and training, with the
+    majority of their efforts going into centers of excellence, communities of
+    practice, and training centers. This pattern was only observed 9% of the
+    time, suggesting that while this strategy can be successful, it is not
+    common and requires significant investment and planning to ensure that
+    lessons learned are scaled throughout the organization.
+
 
 ## Principles of effective organizational change management
 
@@ -382,11 +387,7 @@ Source: CC-BY:
 by Jez Humble, Joanne Molesky, and Barry O'Reilly (O'Reilly, 2014).
 
 ## What's next
-
--   For links to other articles and resources, see the
-    [DevOps page](https://cloud.google.com/devops).
 -   Explore our DevOps
-    [research program](https://www.devops-research.com/research.html).
+    [research program](/research).
 -   Take the
-    [DORA quick check](/quickcheck/) to
-    understand where you stand in comparison with the rest of the industry.
+    [DORA quick check](/quickcheck/) to learn where you stand and identify opportunities for improvement

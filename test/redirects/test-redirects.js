@@ -13,6 +13,9 @@ if (!baseUrl) {
 describe(`Redirects for ${baseUrl}`, () => {
   const redirects = fs.readFileSync('redirects.csv', 'utf8').split('\n');
   redirects.forEach((row) => {
+    // skip any empty rows
+    if (!row) return;
+
     const [url, targetUrl, statusCode] = row.split(',');
     it(`should redirect ${url} to ${targetUrl} with status code ${statusCode}`, async () => {
       const response = await fetch(baseUrl + url, { redirect: 'manual' });
@@ -31,9 +34,3 @@ describe(`Redirects for ${baseUrl}`, () => {
     });
   });
 });
-
-// TODO:
-// Handle this case
-// "source": "/research/:year/?tab_archives=:tab",
-// "destination": "/research/:year/:tab",
-// "type": 302
