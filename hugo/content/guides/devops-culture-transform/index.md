@@ -4,6 +4,7 @@ titleForHTMLHead: "How to transform your organization" # TODO: can we DRY this o
 date: 2023-03-22T13:43:36Z
 updated: 2024-06-10T00:00:00Z
 draft: false
+weight: 400
 headline: "How to transform your organization"
 subhead: "Find out about the importance of ensuring your people have the tools and resources to do their job, and of making good use of their skills and abilities."
 authors: 
@@ -58,7 +59,7 @@ by Mike Rother (McGraw-Hill 2018).
 All of the frameworks start with a direction (a "true north") at the
 organizational or division level. This is an aspirational, system-level business
 goal set by
-[leadership](/devops-capabilities/cultural/transformational-leadership).
+[leadership](/capabilities/transformational-leadership).
 It could be an ideal that can't be achieved, such as zero injuries (the
 [goal](https://hbswk.hbs.edu/archive/paul-o-neill-values-into-action)
 chosen by Alcoa's CEO Paul O'Neill). Or it could be a tough goal that is one to
@@ -152,7 +153,7 @@ Some important points about this pattern are the following:
     learning.
 -   It's important for teams to have the necessary autonomy, capacity,
     resources, and management and
-    [leadership support](/devops-capabilities/cultural/transformational-leadership)
+    [leadership support](/capabilities/transformational-leadership)
     to do improvement work. Teams should not let the normal delivery work crowd
     out improvement work, because the improvement work is what will help fix the
     inefficiencies that make it so slow to deliver products and services.
@@ -310,7 +311,7 @@ The annual budgeting cycle tends to drive organizations towards a project-based
 model in which work of all kinds is tied to expensive projects that take a long
 time to deliver. With few exceptions, it's better to break work down into
 smaller pieces that can be delivered incrementally.
-[Working in small batches](/devops-capabilities/process/working-in-small-batches)
+[Working in small batches](/capabilities/working-in-small-batches)
 delivers a host of benefits. The most important is that it lets organizations
 correct course based on what they discover. This avoids wasting time and money
 doing work that doesn't deliver the expected benefits.

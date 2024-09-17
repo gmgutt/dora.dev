@@ -62,7 +62,7 @@
     <p>{@html summary}</p>
     <div class="footer">
         {#if link}
-            <a href={link} target="_blank">Learn more about {name}</a>
+            <a href={link} target="_blank">Learn more about {name.toLowerCase()}</a>
         {/if}
     </div>
 </div>
@@ -93,8 +93,7 @@
     }
 
     #entityPopover {
-        min-width: 40vw;
-        max-width: min(960px, calc(100vw - 2rem));
+        width: min(960px, calc(100vw - 2rem));
         margin: 10vh auto;
         border: none;
         border-radius: 1em;
@@ -114,6 +113,9 @@
             h1 {
                 flex-grow: 1;
                 padding-left: 1rem;
+                font-size: 2rem;
+                line-height: 3rem;
+                font-weight: 500;
             }
             a {
                 font-size: 2em;
@@ -135,11 +137,21 @@
         p {
             flex-grow: 1;
             padding: 1rem;
+            padding-inline: 2.5rem;
+            line-height: 1.75;
         }
 
         .footer {
             text-align: center;
-            padding: 0.5rem;
+            padding: 0 .5rem 1rem .5rem;
+
+            a {
+                border:1px solid var(--color-grey-light);
+                display:inline-block;
+                border-radius: .25rem;
+                padding:.25rem .75rem;
+                text-decoration: none;
+            }
         }
 
         &::backdrop {

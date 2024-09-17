@@ -3,13 +3,14 @@ title: "How to empower software delivery teams as a business leader"
 titleForHTMLHead: "How to empower software delivery teams as a business leader" # TODO: can we DRY this out?
 date: 2023-10-01T13:45:46-04:00
 updated: 2024-04-19T00:00:00Z
-authors: 
+authors:
     1: {name: 'Steve Fenton', url: 'https://linkedin.com/in/stevefenton'}
     2: {name: 'Mark Kropf', url: 'https://www.linkedin.com/in/markkropf/'}
     3: {name: 'Denali Lumma', url: 'https://www.linkedin.com/in/denali-lumma/'}
 draft: false
+weight: 500
 headline: "How to empower software delivery teams as a business leader"
-subhead: A guide to facilitating the flow of value
+subhead: A guide to facilitating the flow of value.
 heroimage: "how-to-empower-software-delivery-teams.png"
 
 ---
@@ -23,7 +24,7 @@ We think there are healthier ways to bring measurement to software delivery, by 
 ### Measuring software delivery performance with DORA
 Research by DORA has found a strong link between software delivery performance and organizational outcomes. When teams perform well in software delivery, the organization is more likely to meet or exceed its goals. This is an exciting finding for folks responsible for making critical decisions. With a focus on performance, you can make high-quality decisions that help you achieve commercial and non-commercial goals.
 
-The DORA research program is grounded in performance at the level of the team—a cross-functional group who are collectively responsible for the ongoing development and delivery of a product or service. Since 2014, DORA has been refining a model that includes four key metrics of software delivery performance, and a catalog of essential capabilities shown to be predictive of performance, as captured in those key metrics. 
+The DORA research program is grounded in performance at the level of the team—a cross-functional group who are collectively responsible for the ongoing development and delivery of a product or service. Since 2014, DORA has been refining a model that includes four key metrics of software delivery performance, and a catalog of essential capabilities shown to be predictive of performance, as captured in those key metrics.
 
 Let’s look at how leaders at all levels of an organization can leverage these insights to understand and enhance their teams’ software delivery performance.
 
@@ -39,7 +40,7 @@ Software delivery performance is not an individual measure; it measures your abi
 ### Directors
 When you move up a level in your organization's hierarchy, your focus naturally shifts, too. If the software delivery managers report to you, your job is to help these managers build successful teams. Directors are often asked about the health of applications or product lines, which trends in DORA metrics can reveal.
 
-The DORA Core Model reveals the impact of cultural capabilities on organizational outcomes, and directors are in the best position to drive those capabilities and to lead software delivery managers to create the conditions that drive performance. Directors can incentivize capability experimentation and create a shared vision around organizational goals.
+The DORA Core Model reveals the impact of capabilities on organizational outcomes, and directors are in the best position to drive those capabilities and to lead software delivery managers to create the conditions that drive performance. Directors can incentivize capability experimentation and create a shared vision around organizational goals.
 
 This kind of participation helps directors stay informed at a faster frequency than the annual review cycle and will make them more responsive when peers or the C-suite ask for changes.
 

@@ -1,11 +1,4 @@
 steps:
-  - id: 'Stage FirebaseConfig'
-    name: 'bash'
-    env:
-      - 'PROJECT_ID=$PROJECT_ID'
-    script: |
-      # Copy correct Firestore config per project
-      cp -v ci/firebase-config.${PROJECT_ID}.js /workspace/hugo/static/js/firebase-config.js
 
   - id: 'Svelte / Hugo Build'
     name: 'node'
@@ -33,9 +26,6 @@ steps:
 
   - id: 'Firebase Deploy'
     name: gcr.io/$PROJECT_ID/firebase
-    env:
-      - '_PR_NUMBER=$_PR_NUMBER'
-      - 'PROJECT_ID=$PROJECT_ID'
     script: |
       echo "Using firebase version: "$(firebase --version)
       
@@ -78,9 +68,6 @@ steps:
 
   - id: 'Write PR URL back to github'
     name: 'bash'
-    env:
-    - '_PR_NUMBER=$_PR_NUMBER'
-    - 'REPO_FULL_NAME=$REPO_FULL_NAME'
     script: |
       # install github cli
       apk update && apk add github-cli
@@ -97,7 +84,7 @@ steps:
       # add preview URLs as comment.
       gh pr comment ${_PR_NUMBER} --repo=${REPO_FULL_NAME} --edit-last --body-file /workspace/gh-pr-comment-message.txt
       if [ $? -ne 0 ]; then
-        gh pr comment $_PR_NUMBER --repo=${REPO_FULL_NAME} --body-file /workspace/gh-pr-comment-message.txt
+        gh pr comment ${_PR_NUMBER} --repo=${REPO_FULL_NAME} --body-file /workspace/gh-pr-comment-message.txt
       fi
 
     secretEnv: ['GH_TOKEN']
@@ -106,3 +93,8 @@ availableSecrets:
   secretManager:
   - versionName: projects/$PROJECT_ID/secrets/github_token/versions/latest
     env: 'GH_TOKEN'
+
+logsBucket: 'doradotdev-cloudbuild-logs'
+
+options:
+  automapSubstitutions: true

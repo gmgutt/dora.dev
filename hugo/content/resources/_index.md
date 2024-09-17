@@ -26,12 +26,12 @@ Each of these tools will help your team collect and visualize <a href="/guides/d
 
 <section>
     <article>
-    <a href="https://github.com/middlewarehq/middleware" target="_blank">
-        <img src="img/middleware-logo.png" width="120" height="33">
+    <a href="https://github.com/liatrio/backstage-dora-plugin" target="_blank">
+        <img src="img/liatrio.png" width="60" height="60">
     </a>
     <aside>
-    <h4 class="source-available-project"><a href="https://github.com/middlewarehq/middleware" target="_blank">Middleware</a> <a class="google-material-icons" href="https://github.com/middlewarehq/middleware" target="_blank" aria-label="Middleware's code repository">open_in_new</a></h4>
-    <p align="justify">Middleware is an open-source tool designed to help engineering leaders measure and analyze the effectiveness of their teams using the DORA  metrics. The DORA metrics are a set of <a href="/guides/dora-metrics-four-keys/">four key values</a> that provide insights into software delivery performance and operational efficiency. <a class="google-material-icons source-available-repo" href="https://github.com/middlewarehq/middleware" target="_blank" aria-label="Middleware's source code">github</a></p>
+    <h4 class="source-available-project"><a href="https://github.com/liatrio/backstage-dora-plugin" target="_blank">Liatrio backstage-dora-plugin</a> <a class="google-material-icons" href="https://github.com/liatrio/backstage-dora-plugin" target="_blank" aria-label="Liatrio backstage-dora-plugin's code repository">open_in_new</a></h4>
+    <p align="justify">This is a plugin for the <a href="https://backstage.io/" target="_blank">Backstage project</a> that provides a seamless way to display <a href="/guides/dora-metrics-four-keys/">DORA Metrics</a> in your developer portals. <a class="google-material-icons source-available-repo" href="https://github.com/liatrio/backstage-dora-plugin"" target="_blank" aria-label="Liatrio backstage-dora-plugin's code repository">github</a></p>
     </aside>
     </article>
 </section>
@@ -40,12 +40,12 @@ Each of these tools will help your team collect and visualize <a href="/guides/d
 
 <section>
     <article>
-    <a href="https://github.com/OkayHQ/backstage-plugin" target="_blank">
-        <img src="img/okay.png" width="120">
+    <a href="https://github.com/middlewarehq/middleware" target="_blank">
+        <img src="img/middleware-logo.png" width="120" height="33">
     </a>
     <aside>
-    <h4 class="source-available-project"><a href="https://github.com/OkayHQ/backstage-plugin" target="_blank">Okay Backstage Plugin</a> <a class="google-material-icons" href="https://github.com/OkayHQ/backstage-plugin"" target="_blank" aria-label="Okay Backstage Plugin's code repository">open_in_new</a></h4>
-    <p align="justify">This plugin connects <a href="https://backstage.io/" target="_blank">Backstage</a> with your <a href="https://www.okayhq.com/" target="_blank">Okay</a> account to visualize your team analytics. Embed dashboards (including <a href="/guides/dora-metrics-four-keys/">DORA metrics</a>) alongside your team or service pages. <a class="google-material-icons source-available-repo" href="https://github.com/OkayHQ/backstage-plugin" target="_blank" aria-label="Okay Backstage Plugin's source code">github</a></p>
+    <h4 class="source-available-project"><a href="https://github.com/middlewarehq/middleware" target="_blank">Middleware</a> <a class="google-material-icons" href="https://github.com/middlewarehq/middleware" target="_blank" aria-label="Middleware's code repository">open_in_new</a></h4>
+    <p align="justify">Middleware is an open-source tool designed to help engineering leaders measure and analyze the effectiveness of their teams using the DORA  metrics. The DORA metrics are a set of <a href="/guides/dora-metrics-four-keys/">four key values</a> that provide insights into software delivery performance and operational efficiency. <a class="google-material-icons source-available-repo" href="https://github.com/middlewarehq/middleware" target="_blank" aria-label="Middleware's source code">github</a></p>
     </aside>
     </article>
 </section>

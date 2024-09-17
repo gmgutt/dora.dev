@@ -4,9 +4,10 @@ date: 2024-04-08T23:26:21Z
 draft: false
 ---
 
-[![2024 DORA Survey - Shape the future of tech](1920x1080_survey_future_white.png)](https://google.qualtrics.com/jfe/form/SV_8uCHA4aRzcGDjg2?source=doradotdev-survey)
+# The 2024 DORA Survey is now closed
+Thank you to everyone who took the time to participate in the 2024 DORA survey!
 
-**The survey is now open!** Take a moment to reflect on your work, and share your experience to enrich this year's research. Most participants are able to complete the survey in about 15 minutes.
+Your responses are being analyzed and will provide the basis for this year's DORA Report.
 
 ### What's new for 2024?
 
@@ -14,8 +15,7 @@ draft: false
 * **Platform Engineering** - We want to better understand how your organization is approaching platform engineering. Platform engineering may include both technologies and teams. How does platform engineering impact software delivery performance?
 * **Developer Experience** - We want to learn more about your overall experience as you work to deliver for your customers. How does your experience impact the value you're able to deliver?
 
-{{< button href="https://google.qualtrics.com/jfe/form/SV_8uCHA4aRzcGDjg2?source=doradotdev-survey" target="_blank" >}}Take the 2024 DORA Survey now!{{< /button >}}
-
+We expect to publish the 2024 DORA report sometime in October, 2024. [Join the DORA community](https://dora.community) to be notified when the report is published, for discussions with the rest of the community, and for future research study participation opportunities.
 
 <!--
 ### The 2023 Accelerate State of DevOps survey is now closed.
